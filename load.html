@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+	  <meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Brad Traversy">
+    <title>ETL Project | Load</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">ETL</span> Project</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="extract.html">Extract</a></li>
+            <li><a href="transform.html">Transform</a></li>
+            <li class="current"><a href="load.html">Load</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Load</h1>
+          <ul id="services">
+            <li>
+                <img src="images/sql.png" alt="Create Data Base" width="420" height="460" class="center">
+            </li>
+            <li>
+              <img src="images/load1.png" alt="Connect to Data Set" width="620">
+            </li>
+            <li>
+              <img src="images/load2.png" alt="Load Dataset One" width="620">
+            </li>
+            <li>
+              <img src="images/load3.png" alt="Load Dataset Two" width="620">
+            </li>
+            <li>
+              <img src="images/load4.png" alt="Merge Datasets" width="620">
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Steps</h3>
+            <p> 1. We loaded the data into a relational database (MySQL)</p>
+            <p style="margin-left:20px"> a. Created database named “medical_desert_db”
+            <br>
+                b. Created 2 tables: “hpsa”, “uninsured”
+            </p>
+            <p>2. In Jupyter Notebook, we connected to our local database</p>
+            <p>3. Loaded both dataframes into Jupyter (hpsa and uninsured)</p>
+            <p>4. Merged both tables on a common field (county)
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Lissette Miranda, Rodrigo Anglarill, Ganesh Crooks</p>
+    </footer>
+  </body>
+</html>
